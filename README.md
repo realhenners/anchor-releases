@@ -5,10 +5,7 @@
   <img src="assets/banner-light.png" alt="Anchor: the archive tool for Windows that opens anything, extracts faster, and fixes what is broken" width="100%">
 </picture>
 
-<a href="https://github.com/realhenners/anchor-releases/releases/latest"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/button-download-dark.png">
-  <img src="assets/button-download-light.png" alt="Download for Windows" width="324">
-</picture></a>
+<a href="https://github.com/realhenners/anchor-releases/releases/latest"><img src="assets/button-download.png" alt="Download for Windows" width="324"></a>
 <a href="https://github.com/realhenners/anchor-releases/releases"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/button-notes-dark.png">
   <img src="assets/button-notes-light.png" alt="What's new" width="234">
