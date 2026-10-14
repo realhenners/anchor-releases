@@ -123,7 +123,7 @@ Extraction time against 7-Zip 26.04 on the same PC, with the same files out.
 
 1. Open the **[latest release](https://github.com/realhenners/anchor-releases/releases/latest)** and download `Anchor-Setup-<version>.exe`.<br>
    On a Snapdragon or other ARM PC, take the file ending in `-arm64.exe`.
-2. Run it and choose your options.
+2. Run it and pick your options.
 3. Done. Anchor checks for updates when it starts and installs them in one click.
 
 > [!NOTE]
