@@ -14,33 +14,35 @@
 
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/features-dark.png">
-<img src="assets/features-light.png" alt="Open from a link. Repair any ZIP. Size map. Auto compression. Up to 2.6 times faster. Safe by default." width="100%">
+<img src="assets/features-light.png" alt="Open from a link. Repair any ZIP. Size map. Auto compression. Up to 3 times faster. Safe by default." width="100%">
 </picture>
 
-## Up to 2.6× faster than 7-Zip
+## Faster than 7-Zip and WinRAR
 
-Anchor extracts on every processor core at once, so archives with many files finish in well under half the time. With a few large files, the two are even.
+Anchor extracts on every processor core at once. With many files that makes it up to **1.7× faster than 7-Zip** and up to **3× faster than WinRAR**, and on one 7Z archive WinRAR needed over two minutes where Anchor took five seconds. WinRAR stays quickest on its own RAR format, and with a few large files all three are close.
 
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/speed-dark.png">
-<img src="assets/speed-light.png" alt="Extraction time, Anchor against 7-Zip 26.04. 4,000 small files: ZIP 1.4 s against 3.7 s, TAR.ZST 1.6 s against 4.0 s, TAR.GZ 1.7 s against 3.7 s, 7Z 3.7 s against 3.8 s. 8 large files: about the same for every format." width="100%">
+<img src="assets/speed-light.png" alt="Extraction time for Anchor, 7-Zip 26.04 and WinRAR 7.23. 4,000 small files: ZIP 3.2, 5.3 and 3.5 seconds; 7Z 5.2, 5.4 seconds and over 2 minutes; RAR 4.3, 4.4 and 2.5 seconds; TAR.GZ 3.0, 4.7 and 8.9 seconds; TAR.ZST 3.1, 4.9 and 9.1 seconds. 8 large files: all within a second." width="100%">
 </picture>
 
 <details>
 <summary>See the numbers</summary>
 
-| Archive | Anchor | 7-Zip 26.04 | |
-| :-- | --: | --: | :-- |
-| 4,000 small files · ZIP | 1.43 s | 3.67 s | **2.6× faster** |
-| 4,000 small files · TAR.ZST | 1.60 s | 3.98 s | **2.5× faster** |
-| 4,000 small files · TAR.GZ | 1.73 s | 3.67 s | **2.1× faster** |
-| 4,000 small files · 7Z | 3.69 s | 3.78 s | about the same |
-| 8 large files, 320 MB · ZIP | 0.51 s | 0.50 s | about the same |
-| 8 large files, 320 MB · 7Z | 0.27 s | 0.26 s | about the same |
-| 8 large files, 320 MB · TAR.GZ | 0.76 s | 0.71 s | about the same |
-| 8 large files, 320 MB · TAR.ZST | 0.36 s | 0.33 s | about the same |
+| Archive | Anchor | 7-Zip 26.04 | WinRAR 7.23 |
+| :-- | --: | --: | --: |
+| 4,000 small files · ZIP | **3.19 s** | 5.29 s | 3.49 s |
+| 4,000 small files · 7Z | **5.21 s** | 5.38 s | over 2 min |
+| 4,000 small files · RAR | 4.28 s | 4.38 s | **2.53 s** |
+| 4,000 small files · TAR.GZ | **2.98 s** | 4.69 s | 8.86 s |
+| 4,000 small files · TAR.ZST | **3.11 s** | 4.93 s | 9.10 s |
+| 8 large files, 320 MB · ZIP | 0.54 s | **0.48 s** | 0.84 s |
+| 8 large files, 320 MB · 7Z | **0.28 s** | **0.28 s** | 0.40 s |
+| 8 large files, 320 MB · RAR | 0.24 s | **0.23 s** | 0.24 s |
+| 8 large files, 320 MB · TAR.GZ | 0.76 s | **0.70 s** | 1.15 s |
+| 8 large files, 320 MB · TAR.ZST | 0.40 s | 0.35 s | **0.30 s** |
 
-Measured on one PC with 24 cores, best of three runs, each tool extracting to an empty folder and producing the same files.
+Fastest in bold. Measured on one Windows PC with 24 cores: each tool extracted every archive three times in two separate sessions into an empty folder, producing the same files, and the best of the six runs counts. WinRAR was run from its own command line (`WinRAR.exe x`, `UnRAR.exe` for RAR). Runs over two minutes were stopped.
 
 </details>
 
@@ -48,7 +50,7 @@ Measured on one PC with 24 cores, best of three runs, each tool extracting to an
 
 | | **Anchor** | 7-Zip | WinRAR |
 | :-- | :--: | :--: | :--: |
-| Extracts many small files 2–2.6× faster | ✅ | — | — |
+| Extracts many files faster: up to 1.7× vs 7-Zip, 3× vs WinRAR | ✅ | — | — |
 | Opens a ZIP from a link without downloading it all | ✅ | — | — |
 | Repairs damaged ZIPs, even without recovery data | ✅ | — | ✅ |
 | Recovery data for any archive | ✅ | — | RAR only |
