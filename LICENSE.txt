@@ -1,0 +1,47 @@
+Anchor licence agreement
+Copyright (c) 2026 realhenners. All rights reserved.
+
+Anchor is free to download and use. By installing or using Anchor you agree to these terms.
+
+1. Use
+   You may install and use Anchor on any number of computers, at home or at work, at no cost.
+
+2. Sharing
+   You may tell others about Anchor and share links to its official download page:
+   https://github.com/realhenners/anchor-releases
+   You may not sell Anchor, charge for it, or distribute changed copies of it.
+
+3. Changes
+   You may not modify Anchor, or include it or any part of it in another product, without
+   written permission from realhenners.
+
+4. Ownership
+   Anchor, including its code, design, name and logo, belongs to realhenners. This licence
+   lets you use Anchor; it does not transfer any ownership. realhenners may publish new
+   versions under different terms; each version is covered by the terms it ships with.
+
+5. Third-party components
+   Anchor includes the components below. Each is covered by its own licence, included with
+   Anchor, and those licences take precedence over these terms for that component. Nothing
+   in this agreement limits the rights those licences give you, including the right to the
+   source code of the GPL and LGPL components.
+   - 7-Zip by Igor Pavlov: GNU LGPL with the unRAR restriction (https://www.7-zip.org)
+   - par2cmdline: GNU GPL version 2 (https://github.com/Parchive/par2cmdline)
+   - Electron and Chromium: MIT and others (https://www.electronjs.org)
+   - Inter and JetBrains Mono fonts: SIL Open Font License 1.1
+
+6. Updates and internet use
+   Anchor checks GitHub for a new version when it starts; you can turn this off in Settings.
+   It also connects to web addresses you open with it. It sends no other data.
+
+7. No warranty
+   Anchor is provided "as is", without warranty of any kind, express or implied, including
+   fitness for a particular purpose. Keep backups of important files.
+
+8. Limitation of liability
+   To the extent the law allows, realhenners is not liable for any damage or loss, including
+   loss of data, arising from the use of or inability to use Anchor.
+
+9. Ending
+   This licence ends automatically if you break these terms. When it ends, you must stop
+   using Anchor and delete your copies. Sections 4, 7 and 8 stay in effect.
