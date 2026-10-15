@@ -1,0 +1,71 @@
+name: Bug report
+description: Something in Anchor does not work as it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. The more of this you fill in, the faster it can be fixed.
+        Please do not attach archives with private files; a description of the archive is enough.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        1. Opened photos.7z (about 2 GB, 3,000 files)
+        2. Clicked Extract all
+        3. Anchor showed "…" and stopped at 40%
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Anchor version
+      description: Settings › About shows it.
+      placeholder: "0.4.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: arch
+    attributes:
+      label: Installer
+      options:
+        - x64 (most PCs)
+        - ARM64 (Snapdragon and other ARM PCs)
+        - Not sure
+  - type: dropdown
+    id: format
+    attributes:
+      label: Archive type, if it is about one
+      options:
+        - Not about one archive
+        - ZIP
+        - 7Z
+        - RAR
+        - TAR / TAR.GZ / TAR.ZST
+        - ISO
+        - Other
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: |
+        Settings › About › **Open log** opens anchor.log. Paste the last lines from around the time it went wrong.
+        The log holds file names and folders from your PC; remove anything you do not want to share.
+      render: text
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Screenshots, error messages, antivirus you use.

@@ -67,7 +67,6 @@ Fastest in bold. Measured on one Windows PC with 24 cores: each tool extracted e
 | Size map, with duplicate files found for you | ✅ | — | — |
 | Picks the right compression for your files | ✅ | — | — |
 | Safety check for disguised programs and zip bombs | ✅ | — | — |
-| Opens an archive as a drive in Explorer | ✅ | — | — |
 | Undo an extraction | ✅ | — | — |
 | Free, with no nag screen | ✅ | ✅ | — |
 
@@ -90,7 +89,6 @@ The size map shows an archive by size. Click a folder to go into it. Duplicate f
 - Tabs, folder tree, list and grid views, search by name or by text inside files
 - Preview images, video, audio, PDF and text without extracting
 - Open from a link: paste a ZIP's address (Ctrl+L) and browse it at once
-- Open as drive: an archive shows up as a read-only drive in Explorer, files unpack only when opened
 - Explorer's preview pane (Alt+P) lists what is inside an archive
 
 </details>

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download Anchor
+    url: https://github.com/realhenners/anchor-releases/releases/latest
+    about: The latest installer and what changed.
