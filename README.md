@@ -1,3 +1,8 @@
+<a href="https://tryanchor.github.io"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/notice-dark.png">
+<img src="assets/notice-light.png" alt="New: Anchor has a website. Downloads, speed tests and answers at tryanchor.github.io" width="100%">
+</picture></a>
+
 <div align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
